@@ -12,8 +12,9 @@ NickName = ""
 class logindialog(QDialog):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle('登录界面')
-        self.resize(250, 200)
+        self.setWindowFlags(Qt.WindowCloseButtonHint)
+        self.setWindowTitle('登录')
+        self.resize(300, 250)
         self.setFixedSize(self.width(), self.height())
         self.s1 = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 

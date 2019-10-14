@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a59bc581-1cc1-4a05-9161-b1fb500cd571" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/code/style_css.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bubbles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sun.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UDP_Logic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Server.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/StudyFile.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/code/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/client2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubUDP/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubUDP/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubUDP/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubUDP/stopThreading.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubUDP/tcp_logic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubUDP/tcp_udp_web_tools_all_in_one.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubUDP/tcp_udp_web_ui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubUDP/udp_logic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubUDP/web_logic.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/inspectionProfiles" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -55,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.client (1)">
+  <component name="RunManager" selected="Python.Server (1)">
     <configuration name="Server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="UDPCommunication" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,8 +154,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.client (1)" />
-        <item itemvalue="Python.client2" />
         <item itemvalue="Python.Server (1)" />
+        <item itemvalue="Python.client2" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.main" />
       </list>

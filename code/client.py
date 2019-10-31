@@ -54,16 +54,17 @@ class logindialog(QDialog):
         self.pushButton_quit.clicked.connect(QCoreApplication.instance().quit)
         self.pushButton_get_ip.clicked.connect(self.click_get_ip)
 
-
     def on_pushButton_enter_clicked(self):
         # 用户名判断
         if self.lineEdit_account.text() == "":
+            QMessageBox.information(self, '提示', "请输入用户名！", QMessageBox.Yes)
             return
         else:
             global NickName
             NickName = self.lineEdit_account.text()
         # IP地址判断
         if self.lineEdit_IP.text() == "":
+            QMessageBox.information(self, '提示', "请输入IP地址！", QMessageBox.Yes)
             return
         else:
             global HOST
@@ -108,7 +109,7 @@ class ClientWindow(QWidget):
         self.resize(800, 500)
         self.center()
         self.setWindowTitle('UDPCommunication')
-        self.setWindowIcon(QIcon("..\\src\\bubbles.png"))
+        self.setWindowIcon(QIcon("..\\src\\plane.png"))
         # 添加控件
         self.messageWindow = QTextBrowser()
         self.inputWindow = QLineEdit(self)
@@ -152,6 +153,7 @@ class ClientWindow(QWidget):
 
     def send(self):
         if self.inputWindow.text() == "":
+            # self.messageWindow.setStyleSheet(self.sty.buttonStyle())
             self.messageWindow.insertHtml(self.toHtml("red", "请先输入信息！"))
         else:
             try:
@@ -168,6 +170,7 @@ class ClientWindow(QWidget):
         self.messageWindow.insertHtml(self.toHtml("black", messagae))
 
     def toHtml(self, c, s):
+
         return "<font color='" + c + "' font-size='20'>" + s + "</font><br>"
 
 
@@ -210,3 +213,4 @@ if __name__ == '__main__':
         window = ClientWindow()
         window.show()
     sys.exit(app.exec_())
+

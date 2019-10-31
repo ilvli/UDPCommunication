@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a59bc581-1cc1-4a05-9161-b1fb500cd571" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/plane.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/speech.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/translate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/login.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/main.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/style_css.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/inspectionProfiles" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -48,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test2">
+  <component name="RunManager" selected="Python.test">
     <configuration name="Server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="UDPCommunication" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,10 +152,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test2" />
-        <item itemvalue="Python.Server (1)" />
-        <item itemvalue="Python.client (1)" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.client (1)" />
+        <item itemvalue="Python.Server (1)" />
+        <item itemvalue="Python.test2" />
         <item itemvalue="Python.client2" />
       </list>
     </recent_temporary>

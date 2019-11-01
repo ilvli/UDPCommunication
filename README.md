@@ -2,9 +2,9 @@
  A software use for communication by UDP
 
  ### 登录界面
- ![avatar](Screenshot/login.JPG)
+ ![avatar](https://github.com/ilvli/UDPCommunication/blob/master/Screenshot/login.JPG)
 
 ### 主界面
 
-![avatar](D:\GitHub\UDPCommunication\Screenshot\main.JPG)
+![avatar](Screenshot\main.JPG)
 

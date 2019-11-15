@@ -6,5 +6,5 @@
 
 ### 主界面
 
-![avatar](https://github.com/ilvli/UDPCommunication/blob/master/Screenshot/login.JPG)
+![avatar](https://github.com/ilvli/UDPCommunication/blob/master/Screenshot/main.JPG)
 
